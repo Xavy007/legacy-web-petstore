@@ -22,7 +22,7 @@ public class PetListServlet extends HttpServlet {
         out.println("<html>");
         out.println("<head><title>Pet Store</title></head>");
         out.println("<body>");
-        out.println("<h1>Welcome to the Pet Store</h1>");        out.println("<a href=\"./cart\">View Cart</a> | <a href=\"./history\">View Transaction History</a>");
+        out.println("<h1>Welcome to the UCB Pet Store</h1>");        out.println("<a href=\"./cart\">View Cart</a> | <a href=\"./history\">View Transaction History</a>");
         out.println("<h2>Available Pets</h2>");
         out.println("<table border=\"1\">");
         out.println("<tr><th>Name</th><th>Species</th><th>Age</th><th>Price</th><th>Action</th></tr>");
